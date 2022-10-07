@@ -1,0 +1,30 @@
+# folders
+datasets/
+lightning_logs/
+mlflow_artifacts/
+mlruns/
+
+# files 
+mlflow_db2.sqlite
+
+
+# python files
+.mypy_cache
+.vscode/*
+.pytest_cache/
+__pycache__/
+.coverage
+.coverage_html/
+logs/
+configs/test.ini
+
+# Envs
+*.env
+.env/
+.venv/
+
+
+# IDEs
+.idea/
+.vscode/
+.settings/

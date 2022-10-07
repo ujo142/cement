@@ -1,0 +1,16 @@
+GitPython
+mlflow
+pytorch_lightning
+PyYAML
+hydra-core
+tqdm
+transformers
+setuptools
+sentencepiece
+openpyxl
+pandas
+black
+lint
+pipreqs
+sklearn
+torchvision
