@@ -1,0 +1,19 @@
+work_dir: ${hydra:runtime.cwd}
+
+defaults:
+    - _self_
+    - model: cement_model
+    
+dataloader_creator:
+    _target_: dataloader_class.dataloader.CementDataloader
+    Dataset: dataset_class.dataset.CementDataset
+    train_data_path: /Users/ben/inz/cement/datasets/train_scaled.csv
+    val_data_path: /Users/ben/inz/cement/datasets/test_scaled.csv
+    ratio: 0.9
+    batch_size: 16
+    workers: 0
+
+trainer:
+    max_epochs: 25
+    accelerator: cpu
+ 
